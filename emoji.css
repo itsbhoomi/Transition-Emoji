@@ -1,0 +1,39 @@
+.emoji {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    box-sizing: border-box;
+    box-shadow: grey 15px 15px 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+}
+
+.emoji:hover {
+    transition: 4s;
+    transform: scale(0.5);
+}
+
+.eyes {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 49px;
+    left: 108px;
+}
+
+.eyes2 {
+    left: 60px;
+}
+
+.mouth {
+    width: 50px;
+    height: 27px;
+    background-color: #000;
+    border-radius: 0 0 22px 22px;
+    position: absolute;
+    top: 120px;
+    left: 75px;
+}
